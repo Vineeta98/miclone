@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.main-container{
+    background-color: rgb(177, 177, 228);
+
+    height: auto;
+    width: 100%;
+
+}
+.white-nav{
+    background-color: white;
+    height: 70px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.white-nav ul :first-child{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+
+}
+.white-nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+
+}
+.nav-bar1{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blue-nav{
+    padding-left:100px ;
+    padding-top: 100px;
+    width: 100%;
+    height: 800px;
+    background-image: url(./desh.gif);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+.blue-nav h3{
+    color: white;
+    font-size:50px;
+     padding-top:25px ;
+}
+.blue-nav p{
+    color: white ;
+    font-size: 35px;
+    padding-top:25px ;
+}
+.blue-nav button{
+    margin-top:35px ;
+    color: black;
+    background-color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 15px; 
+    width: 150px;
+    height: 40px;
+    
+}
+.white-section{
+    background-image: url(./reddot.webp);
+    height: 600px;background-position: center;
+    background-size: cover;
+}
+.white-section button{
+    
+}
+
